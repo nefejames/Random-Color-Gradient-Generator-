@@ -1,0 +1,28 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+body{
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     text-transform: uppercase;
+}
+
+.container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.container p{
+     font-weight: 700;
+     font-size: 2em;
+}
+.container .paragraph{
+     text-transform: none;
+}
